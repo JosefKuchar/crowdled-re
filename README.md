@@ -4,6 +4,19 @@ CrowdLED reverse engineering efforts
 
 ## Packets
 
+The packets are sent using 433MHz OOK modulation.
+
+![RAW Signal](_img/raw_signal.png)
+
+Each packet is 6 bytes long and starts with preamble.
+
+Preamble is ~550us LOW followed by ~550us HIGH.
+
+Each bit is encoded as ~200us LOW followed by
+
+- ~200us HIGH for 0
+- ~350us HIGH for 1
+
 ```
  0                   1
  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5
