@@ -52,3 +52,4 @@ These packets are confirmed to work with the CrowdLED V3 bracelets with group 22
 ## Credits
 
 - [**MakeTotalSense**](https://github.com/MakeTotalSense/) - [signal recording](https://github.com/MakeTotalSense/Flipper-Concert-bracelets)
+- [**Flipper Zero Forum**](https://forum.flipper.net/t/new-device-protocol-crowd-led-and-dmx/6571) - Protocol discussion
