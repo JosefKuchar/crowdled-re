@@ -48,6 +48,13 @@ These packets are confirmed to work with the CrowdLED V3 bracelets with group 22
 0x03 0x0F 0x19 0xFF 0x13 0xB8 - Blue blink - only group 22
 ```
 
+## TODO
+
+- [ ] Easier way to test packets (WiFi controlled transmitter?)
+- [ ] Figure out color encoding
+- [ ] Figure out group encoding
+- [ ] Figure out effect encoding
+
 ## Credits
 
 - [**MakeTotalSense**](https://github.com/MakeTotalSense/) - [signal recording](https://github.com/MakeTotalSense/Flipper-Concert-bracelets)
