@@ -21,7 +21,7 @@ Each bit is encoded as ~200us LOW followed by
  0                   1                   2
  0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
-|                    Unknown                    |
+|                 Unknown                 |     |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |        Appears unused         |     CRC8      |
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -42,10 +42,11 @@ Correct CRC8 calculation tool: [CRC Calculator (Javascript)](https://www.sunshin
 These packets are confirmed to work with the CrowdLED V3 bracelets with group 22, 23
 
 ```
-0x5F 0x1C 0x97 0xFF 0x13 0x01 - White(ish)
-0x5F 0x23 0x97 0xFF 0x13 0xD6 - Pink
-0x5F 0x57 0xFF 0xEF 0x13 0x68 - White(ish)
-0x03 0x0F 0x19 0xFF 0x13 0xB8 - Blue blink - only group 22
+0x5F 0x1C 0x97 0xFF 0x13 - White(ish)
+0x5F 0x23 0x97 0xFF 0x13 - Pink
+0x5F 0x57 0xFF 0xEF 0x13 - White(ish)
+0x03 0x0F 0x19 0xFF 0x13 - Blue blink - only group 22
+0x5F 0xC7 0x40 0xFF 0x13 - Salmon
 ```
 
 ## TODO
